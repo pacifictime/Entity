@@ -14,7 +14,7 @@ public class Entity {
 	public void create(String newType, String newName, String newParent){
 		
 
-		newPath = newParent + "\" + newName;
+		newPath = newParent + "\\" + newName;
 		
 		//path not found, don't need to check for drive because drive can be created without the path
 		String[] noPathCheck1 = {newParent, "drive"};
